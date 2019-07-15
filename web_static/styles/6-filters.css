@@ -79,6 +79,7 @@
 
 .filters .locations .popover li {
     padding: 5px 0 0 35px;
+    list-style-type: none;
 }
 
 .filters .locations:hover .popover {
@@ -91,16 +92,18 @@
     border: solid 1px #DDDDDD;
     border-radius: 4px;
     list-style-type: none;
-        position: absolute;
-        width: 100%;
-        top: 71px;
-        left: 0;
+    position: absolute;
+    width: 100%;
+    top: 71px;
+    left: 0;
 }
 
 .filters .amenities .popover li {
     margin-top: 10px;
     padding: 5px 0 0 35px;
+    list-style-type: none;
 }
+
 .amenities:hover .popover {
     display: block;
 }
